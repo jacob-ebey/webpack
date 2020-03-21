@@ -8,6 +8,12 @@ module.exports = {
 			options: {
 				useTabs: false
 			}
+		},
+		{
+			files: "*.ts",
+			options: {
+				parser: "typescript"
+			}
 		}
 	]
 };
